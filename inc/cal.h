@@ -9,5 +9,5 @@ int multiplication(int,int);
 float division(int,int);
 int modulus(int,int);
 int power(int,int);
-int factorial(int,int);
+int factorial(int);
 #endif
