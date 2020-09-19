@@ -50,10 +50,13 @@ int modulus(int number1,int number2)
 int power(int number, int power_of_number)
 {
     
-	int answer;
+	int answer=1;
  
-    answer=pow(number,power_of_number);
-    return answer;
+    while (power_of_number != 0) {
+        answer *= number;
+        --power_ofnumber;
+    }
+	return answer;
 }
  
 int factorial(int number)
