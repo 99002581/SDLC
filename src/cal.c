@@ -27,7 +27,7 @@ void multiplication(int number1,int number2)
     return total;
 }
  
-float division(int number1,int number2)
+void division(int number1,int number2)
 {
     
 	int total;
@@ -47,7 +47,7 @@ void modulus(int number1,int number2)
     return answer;
 }
  
-void power(double number, double power_of_number)
+void power(int number, int power_of_number)
 {
     
 	double answer;
@@ -56,7 +56,7 @@ void power(double number, double power_of_number)
     return answer;
 }
  
-int factorial(int number)
+void factorial(int number)
 {
     int i;
 	int factorial=1;
