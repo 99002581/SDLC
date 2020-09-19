@@ -67,7 +67,7 @@ void test_multiply(void) {
 }
 
 void test_divide(void) {
-  CU_ASSERT(0 == division(1, 0));
+  CU_ASSERT(2 == division(4, 2));
   
   /* Dummy fail*/
  // CU_ASSERT(3 == division(2, 2));
