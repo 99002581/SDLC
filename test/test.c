@@ -8,6 +8,9 @@ void test_add(void);
 void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
+void test_modulus(void);
+void test_power(void);
+void test_factorial(void);
 
 int main() {
 /* Note: Do not edit START*/
@@ -23,6 +26,9 @@ int main() {
   CU_add_test(suite, "subtract", test_subtract);
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
+  CU_add_test(suite, "modulus", test_modulus);
+   CU_add_test(suite, "power", test_power);
+   CU_add_test(suite, "factorial", test_factorial);
 
 
 /* Note: Do not edit START*/
@@ -65,4 +71,24 @@ void test_divide(void) {
   
   /* Dummy fail*/
   CU_ASSERT(3 == division(2, 2));
+}
+void test_modulus(void)
+{
+   CU_ASSERT(0 == modulus(3, 3));
+  /* Dummy fail*/
+  CU_ASSERT(3 == modulus(4, 2));
+}
+void test_power(void)
+{
+  
+  CU_ASSERT(16 == power(4, 2));
+  /* Dummy fail*/
+  CU_ASSERT(20 == power(5, 2));
+}
+void test_factorial(void)
+{
+  
+  CU_ASSERT(24 == factorial(4));
+  /* Dummy fail*/
+  CU_ASSERT(100 == factorial(5));
 }
