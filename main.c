@@ -12,7 +12,7 @@ printf("4. Division\n");
 printf("5. Modulus\n");
 printf("6. Power\n");
 printf("7. Factorial\n");
-printf("enter your choice \n")
+printf("enter your choice \n");
 scanf("%d",&choice);
 switch(choice)
 {
@@ -49,7 +49,7 @@ switch(choice)
     case 7: 
 	        printf("enter a digit ");
             scanf("%d",&digit1);
-	        print("%d",factorial(digit1));
+	        printf("%d",factorial(digit1));
 			printf("\n");
 	        break;
 }
