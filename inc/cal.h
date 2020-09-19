@@ -3,11 +3,11 @@
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
-void addition(int,int);
-void subtraction(int,int);
-void multiplication(int,int);
-void division(int,int);
-void modulus(int,int);
-void power(int,int);
-void factorial(int,int);
+int addition(int,int);
+int subtraction(int,int);
+int multiplication(int,int);
+float division(int,int);
+int modulus(int,int);
+int power(int,int);
+int factorial(int,int);
 #endif
