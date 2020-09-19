@@ -50,7 +50,7 @@ int modulus(int number1,int number2)
 int power(int number, int power_of_number)
 {
     
-	double answer;
+	int answer;
  
     answer=pow(number,power_of_number);
     return answer;
