@@ -49,46 +49,46 @@ void test_add(void) {
   CU_ASSERT(30 == addition(10, 20));
   
   /* Dummy fail*/
-  CU_ASSERT(1500 == addition(750, 7500));
+ // CU_ASSERT(1500 == addition(750, 7500));
 }
 
 void test_subtract(void) {
   CU_ASSERT(-3 == subtraction(0, 3));
   
   /* Dummy fail*/
-  CU_ASSERT(1 == subtraction(1000, 900));
+  //CU_ASSERT(1 == subtraction(1000, 900));
 }
 
 void test_multiply(void) {
   CU_ASSERT(0 == division(1, 0));
   
   /* Dummy fail*/
-  CU_ASSERT(2 == division(2, 5));
+  //CU_ASSERT(2 == division(2, 5));
 }
 
 void test_divide(void) {
   CU_ASSERT(0 == division(1, 0));
   
   /* Dummy fail*/
-  CU_ASSERT(3 == division(2, 2));
+ // CU_ASSERT(3 == division(2, 2));
 }
 void test_modulus(void)
 {
    CU_ASSERT(0 == modulus(3, 3));
   /* Dummy fail*/
-  CU_ASSERT(3 == modulus(4, 2));
+  //CU_ASSERT(3 == modulus(4, 2));
 }
 void test_power(void)
 {
   
   CU_ASSERT(16 == power(4, 2));
   /* Dummy fail*/
-  CU_ASSERT(20 == power(5, 2));
+  //CU_ASSERT(20 == power(5, 2));
 }
 void test_factorial(void)
 {
   
   CU_ASSERT(24 == factorial(4));
   /* Dummy fail*/
-  CU_ASSERT(100 == factorial(5));
+ // CU_ASSERT(100 == factorial(5));
 }
