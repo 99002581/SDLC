@@ -1,6 +1,6 @@
 #include "cal.h"
 
-void addition(int number1,int number2)
+int addition(int number1,int number2)
 {
     
 	int total;
@@ -8,7 +8,7 @@ void addition(int number1,int number2)
     return total;
 }
  
-void subtraction(int number1,int number2)
+int subtraction(int number1,int number2)
 {
     
 	int total;
@@ -17,7 +17,7 @@ void subtraction(int number1,int number2)
     
 }
  
-void multiplication(int number1,int number2)
+int multiplication(int number1,int number2)
 {
     
 	int total;
@@ -27,10 +27,10 @@ void multiplication(int number1,int number2)
     return total;
 }
  
-void division(int number1,int number2)
+float division(int number1,int number2)
 {
     
-	int total;
+	float total;
     
         total=number1/number2;
         
@@ -38,7 +38,7 @@ void division(int number1,int number2)
 	return total;
 }
  
-void modulus(int number1,int number2)
+int modulus(int number1,int number2)
 {
     
     int	answer=0; 
@@ -47,7 +47,7 @@ void modulus(int number1,int number2)
     return answer;
 }
  
-void power(int number, int power_of_number)
+int power(int number, int power_of_number)
 {
     
 	double answer;
@@ -56,7 +56,7 @@ void power(int number, int power_of_number)
     return answer;
 }
  
-void factorial(int number)
+int factorial(int number)
 {
     int i;
 	int factorial=1;
