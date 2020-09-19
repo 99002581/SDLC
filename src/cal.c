@@ -54,7 +54,7 @@ int power(int number, int power_of_number)
  
     while (power_of_number != 0) {
         answer *= number;
-        --power_ofnumber;
+        --power_of_number;
     }
 	return answer;
 }
