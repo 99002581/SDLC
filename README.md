@@ -1,5 +1,7 @@
 # SDLC
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2e1f5acabb5a49efb2e0bfae0775cd54)](https://app.codacy.com/manual/99002581/SDLC?utm_source=github.com&utm_medium=referral&utm_content=99002581/SDLC&utm_campaign=Badge_Grade_Dashboard)
+
 
 
 
