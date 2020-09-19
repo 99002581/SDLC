@@ -60,7 +60,7 @@ void test_subtract(void) {
 }
 
 void test_multiply(void) {
-  CU_ASSERT(0 == division(1, 0));
+  CU_ASSERT(0 == multiply(1, 0));
   
   /* Dummy fail*/
   //CU_ASSERT(2 == division(2, 5));
