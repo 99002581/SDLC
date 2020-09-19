@@ -4,11 +4,11 @@
 #include<conio.h>
 #include<math.h>
 #include<stdlib.h>
-void addition();
-void subtraction();
-void multiplication();
-void division();
-void modulus();
-void power();
-int factorial();
+void addition(int,int);
+void subtraction(int,int);
+void multiplication(int,int);
+void division(int,int);
+void modulus(int,int);
+void power(int,int);
+void factorial(int,int);
 #endif
